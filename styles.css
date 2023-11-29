@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	text-decoration: none;
+	background-attachment: fixed;
+	background-color: #04010f;
+	color: white;
+}
+.navbox {
+	background-color: #04010f;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	margin: 0;
+	position: fixed;
+	z-index: 100;
+}
+header img {
+	padding-top: 10px;
+	padding-left: 100px;
+}
+nav li {
+	color: white;
+	list-style: none;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+nav ul {
+	margin-right: 100px;
+	margin-top: 35px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 60px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 400;
+}
+.glass-container {
+	/* From https://css.glass */
+	background: rgba(169, 190, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8.2px);
+	-webkit-backdrop-filter: blur(8.2px);
+	margin-top: 200px;
+	margin-bottom: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.hero-block {
+	width: 100%;
+	min-height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.img-parallax {
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	pointer-events: none;
+}
+.hero-text {
+	color: white;
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 50%;
+}
+h2 {
+	font-family: Helvetica;
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+h1 {
+	font-family: Helvetica;
+	font-size: 121px;
+	font-weight: 400;
+	line-height: 80px;
+	letter-spacing: 0em;
+	text-align: center;
+	background: -webkit-linear-gradient(
+		rgba(76, 100, 165, 1),
+		rgba(17, 26, 37, 1)
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	margin-top: 0;
+}
+footer {
+	font-family: Helvetica;
+	padding-top: 80px;
+	text-align: center;
+}
+.project-container {
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+	padding-top: 80px;
+}
+.project-container img {
+	box-shadow: 0px 4px 10px 0px #ffffff80;
+	border: none;
+	margin-bottom: 20px;
+}
+.project-container img:hover {
+	background-color: aqua;
+}
+.project-column {
+	width: 605px;
+}
+.project-section {
+	display: flex;
+	flex-direction: column;
+	width: 605px;
+}
