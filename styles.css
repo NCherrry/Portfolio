@@ -97,11 +97,6 @@ h1 {
 	padding-top: 10px;
 	margin-top: 0;
 }
-footer {
-	font-family: Helvetica;
-	padding-top: 80px;
-	text-align: center;
-}
 .project-container {
 	display: flex;
 	justify-content: center;
@@ -113,9 +108,6 @@ footer {
 	border: none;
 	margin-bottom: 20px;
 }
-.project-container img:hover {
-	background-color: aqua;
-}
 .project-column {
 	width: 605px;
 }
@@ -123,4 +115,80 @@ footer {
 	display: flex;
 	flex-direction: column;
 	width: 605px;
+}
+.project-hero {
+	width: 100%;
+	max-height: 700px;
+	overflow: hidden;
+	object-fit: cover;
+	z-index: -1;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav ul a:hover {
+	color: #a52856;
+}
+.aboutContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.aboutContent img {
+	max-width: 300px;
+}
+.project-page-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 20px;
+	column-gap: 20px;
+	padding-top: 50px;
+}
+.project-page-container img {
+	max-width: 500px;
+	max-height: 500px;
+	object-fit: cover;
+}
+.aboutContent p {
+	font-family: Helvetica;
+	font-size: 14px;
+	max-width: 600px;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact {
+	font-family: Helvetica;
+}
+.page-title {
+	text-align: center;
+}
+.project-container a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.project-container a:hover img {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+footer {
+	background-image: url(./images/flowers.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: auto;
+	font-family: Helvetica;
+	padding-top: 120px;
+	text-align: center;
+}
+.more-projects-paragraph {
+	text-align: center;
 }
