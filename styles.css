@@ -123,13 +123,6 @@ h1 {
 	object-fit: cover;
 	z-index: -1;
 }
-nav a {
-	text-decoration: none;
-	color: white;
-}
-nav ul a:hover {
-	color: #a52856;
-}
 .aboutContent {
 	display: flex;
 	flex-direction: column;
@@ -191,4 +184,11 @@ footer {
 }
 .more-projects-paragraph {
 	text-align: center;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav ul a:hover {
+	color: #a52856;
 }
