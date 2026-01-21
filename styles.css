@@ -192,6 +192,6 @@ nav a {
 nav ul a:hover {
 	color: #a52856;
 }
-.largeImageClick img a:onclick {
+.largeImageClick a:onclick {
 	width: 200%;
 }
